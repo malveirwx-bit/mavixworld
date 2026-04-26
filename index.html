@@ -10,28 +10,28 @@
 <body>
     <div class="bg-glow"></div>
     
-    <header class="fade-in">
+    <header>
         <div class="logo-container">
             <img src="https://i.ibb.co/Lz00Jxp/logo.png" alt="Logo" class="server-logo">
             <span class="mc-font">MavixWorld</span>
         </div>
         <nav>
-            <a href="#features">Почему мы?</a>
-            <a href="https://t.me/mavixworld" target="_blank">Telegram</a>
+            <a href="#features">Преимущества</a>
+            <a href="https://t.me/+0vu40bPkQz0yOWRi" target="_blank">Telegram</a>
         </nav>
     </header>
 
     <section class="hero">
         <h1 class="mc-font fade-in-up">Анархия на <span class="blue-text-glow">атерносе</span></h1>
-        <p class="subtitle fade-in-delay">Забудь про скучные сервера. MavixWorld — это проект, где мы выжали максимум из железа, чтобы дать тебе настоящую свободу без границ.</p>
+        <p class="subtitle fade-in-delay">Тот самый проект, где мы выжали максимум из хостинга, чтобы дать тебе настоящую свободу без границ и лишних правил.</p>
         
         <div class="cta-buttons fade-in-delay">
             <button class="btn-primary pulse" onclick="copyIP()">Скопировать IP и играть</button>
-            <a href="https://t.me/mavixworld" target="_blank" class="btn-secondary">Наш Telegram</a>
+            <a href="https://t.me/+0vu40bPkQz0yOWRi" target="_blank" class="btn-secondary">Наш Telegram</a>
         </div>
 
         <div class="ip-block floating fade-in-bottom liquid-glass" onclick="copyIP()">
-            <div class="ip-header">Кликни, чтобы скопировать</div>
+            <div class="ip-header">Нажми, чтобы скопировать IP</div>
             <div class="ip-value" id="server-ip">MavixWorld.aternos.me:59654</div>
             <div class="status-indicator">
                 <span class="dot"></span> Работает ежедневно с 07:00 до 23:00
@@ -40,22 +40,22 @@
     </section>
 
     <section id="features" class="features">
-        <h2 class="mc-font">Твой лучший выбор</h2>
+        <h2 class="mc-font">Почему выбирают нас?</h2>
         <div class="cards-grid">
             <div class="card liquid-glass">
                 <div class="card-icon">⚡</div>
                 <h3>Оптимизация</h3>
-                <p>Мы настроили ядро так, что даже на Aternos у нас стабильный TPS. Минимум лагов.</p>
+                <p>Мы настроили ядро так, что даже на Aternos у нас стабильный TPS. Минимум лагов — максимум фана.</p>
             </div>
             <div class="card liquid-glass">
                 <div class="card-icon">💀</div>
-                <h3>Анархия</h3>
-                <p>Гриферство и войны — основа игры. Никакой лишней администрации, только хардкор.</p>
+                <h3>Чистая Анархия</h3>
+                <p>Гриферство и войны — это основа. Никакой доброй администрации, выживает сильнейший.</p>
             </div>
             <div class="card liquid-glass">
                 <div class="card-icon">🌍</div>
                 <h3>Живой мир</h3>
-                <p>Наш мир не удаляется. Строй базы, создавай альянсы и оставляй свой след.</p>
+                <p>Наш мир не удаляется через неделю. Строй базы и оставляй свой след в истории.</p>
             </div>
         </div>
     </section>
@@ -72,14 +72,14 @@
     </section>
 
     <footer>
-        <p class="mc-font" style="font-size: 10px; opacity: 0.5;">&copy; 2026 MavixWorld Project. Все права принадлежат игрокам.</p>
+        <p class="mc-font" style="font-size: 10px; opacity: 0.4;">&copy; 2026 MavixWorld Project. Все права принадлежат игрокам.</p>
     </footer>
 
     <script>
     function copyIP(){
-        const ip = document.getElementById("server-ip").innerText;
+        const ip=document.getElementById("server-ip").innerText;
         navigator.clipboard.writeText(ip);
-        alert("IP скопирован! Удачного выживания на MavixWorld!");
+        alert("IP скопирован! Ждем тебя на сервере.");
     }
     </script>
 </body>
